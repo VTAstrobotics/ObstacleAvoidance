@@ -1,0 +1,12 @@
+digraph G {
+"map" -> "odom"[label="Broadcaster: /tf_broadcaster\nAverage rate: 2782.278 Hz\nMost recent transform: 1523984798.016 ( 0.040 sec old)\nBuffer length: 4.936 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /tf_broadcaster\nAverage rate: 2776.802 Hz\nMost recent transform: 1523984798.026 ( 0.030 sec old)\nBuffer length: 4.946 sec\n"];
+"base_link" -> "kinect2_link"[label="Broadcaster: /tf_broadcaster\nAverage rate: 2783.374 Hz\nMost recent transform: 1523984798.016 ( 0.040 sec old)\nBuffer length: 4.936 sec\n"];
+"kinect2_ir_optical_frame" -> "camera_depth_frame"[label="Broadcaster: /tf_broadcaster\nAverage rate: 2771.745 Hz\nMost recent transform: 1523984798.039 ( 0.017 sec old)\nBuffer length: 4.959 sec\n"];
+"kinect2_rgb_optical_frame" -> "kinect2_ir_optical_frame"[label="Broadcaster: /kinect2\nAverage rate: 73.042 Hz\nMost recent transform: 1523984798.051 ( 0.005 sec old)\nBuffer length: 4.970 sec\n"];
+"kinect2_link" -> "kinect2_rgb_optical_frame"[label="Broadcaster: /kinect2\nAverage rate: 73.042 Hz\nMost recent transform: 1523984798.051 ( 0.005 sec old)\nBuffer length: 4.970 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1523984798.056"[ shape=plaintext ] ;
+ }->"map";
+}

@@ -1,0 +1,21 @@
+digraph G {
+"map" -> "odom"[label="Broadcaster: /tf_broadcaster\nAverage rate: 11794.715 Hz\nMost recent transform: 1524694691.924 ( 0.012 sec old)\nBuffer length: 4.975 sec\n"];
+"base_link" -> "kinect2_link"[label="Broadcaster: /tf_broadcaster\nAverage rate: 11823.314 Hz\nMost recent transform: 1524694691.924 ( 0.012 sec old)\nBuffer length: 4.972 sec\n"];
+"kinect2_ir_optical_frame" -> "camera_depth_frame"[label="Broadcaster: /tf_broadcaster\nAverage rate: 11839.403 Hz\nMost recent transform: 1524694691.924 ( 0.012 sec old)\nBuffer length: 4.972 sec\n"];
+"kinect2_rgb_optical_frame" -> "kinect2_ir_optical_frame"[label="Broadcaster: /kinect2\nAverage rate: 98.393 Hz\nMost recent transform: 1524694691.935 ( 0.001 sec old)\nBuffer length: 4.980 sec\n"];
+"kinect2_link" -> "kinect2_rgb_optical_frame"[label="Broadcaster: /kinect2\nAverage rate: 98.393 Hz\nMost recent transform: 1524694691.935 ( 0.001 sec old)\nBuffer length: 4.980 sec\n"];
+"odom" -> "imu"[label="Broadcaster: /madgwick_filter\nAverage rate: 100.962 Hz\nMost recent transform: 1524694691.928 ( 0.008 sec old)\nBuffer length: 4.962 sec\n"];
+"usb_cam" -> "a_frame"[label="Broadcaster: /left/apriltag_detector\nAverage rate: 4.156 Hz\nMost recent transform: 1524694691.484 ( 0.452 sec old)\nBuffer length: 4.813 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1524694691.936"[ shape=plaintext ] ;
+ }->"map";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1524694691.936"[ shape=plaintext ] ;
+ }->"base_link";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1524694691.936"[ shape=plaintext ] ;
+ }->"usb_cam";
+}

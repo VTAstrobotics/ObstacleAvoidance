@@ -1,0 +1,8 @@
+prefix=/home/hal/workspace/install
+
+Name: robot_setup_tf
+Description: Description of robot_setup_tf
+Version: 0.0.0
+Cflags: -I/home/hal/workspace/install/include
+Libs: -L/home/hal/workspace/install/lib -lrobot_setup_tf
+Requires: apriltags_ros roscpp tf geometry_msgs

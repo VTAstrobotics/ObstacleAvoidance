@@ -1,0 +1,13 @@
+# Target labels
+ siftgpu_proj
+# Source files and their labels
+/home/hal/workspace/build/rgbdslam/external/CMakeFiles/siftgpu_proj
+/home/hal/workspace/build/rgbdslam/external/CMakeFiles/siftgpu_proj.rule
+/home/hal/workspace/build/rgbdslam/external/CMakeFiles/siftgpu_proj-complete.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-install.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-mkdir.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-download.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-update.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-patch.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-configure.rule
+/home/hal/workspace/build/rgbdslam/external/siftgpu_prefix/src/siftgpu_proj-stamp/siftgpu_proj-build.rule
