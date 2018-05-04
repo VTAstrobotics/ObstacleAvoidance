@@ -1,8 +1,0 @@
-prefix=/home/hal/workspace/devel
-
-Name: kinect2_bridge
-Description: Description of kinect2_bridge
-Version: 0.0.1
-Cflags: -I/home/hal/workspace/src/iai_kinect2/kinect2_bridge/include
-Libs: -L/home/hal/workspace/devel/lib 
-Requires: kinect2_registration

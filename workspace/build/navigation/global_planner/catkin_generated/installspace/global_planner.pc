@@ -1,8 +1,0 @@
-prefix=/home/hal/workspace/install
-
-Name: global_planner
-Description: Description of global_planner
-Version: 1.14.3
-Cflags: -I/home/hal/workspace/install/include
-Libs: -L/home/hal/workspace/install/lib -lglobal_planner
-Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf

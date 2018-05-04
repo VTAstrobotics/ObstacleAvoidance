@@ -1,8 +1,0 @@
-prefix=/home/hal/workspace/install
-
-Name: robot_pose_ekf
-Description: Description of robot_pose_ekf
-Version: 1.14.3
-Cflags: -I/home/hal/workspace/install/include
-Libs: -L/home/hal/workspace/install/lib 
-Requires: geometry_msgs message_runtime nav_msgs roscpp sensor_msgs std_msgs

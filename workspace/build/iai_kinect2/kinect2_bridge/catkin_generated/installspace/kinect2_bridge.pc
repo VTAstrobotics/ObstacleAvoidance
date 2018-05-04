@@ -1,8 +1,0 @@
-prefix=/home/hal/workspace/install
-
-Name: kinect2_bridge
-Description: Description of kinect2_bridge
-Version: 0.0.1
-Cflags: -I/home/hal/workspace/install/include
-Libs: -L/home/hal/workspace/install/lib 
-Requires: kinect2_registration

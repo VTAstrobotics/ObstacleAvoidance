@@ -1,8 +1,0 @@
-prefix=/home/hal/workspace/devel
-
-Name: kinect2_registration
-Description: Description of kinect2_registration
-Version: 0.0.1
-Cflags: -I/home/hal/workspace/src/iai_kinect2/kinect2_registration/include -I/usr/include
-Libs: -L/home/hal/workspace/devel/lib -lkinect2_registration /usr/lib/x86_64-linux-gnu/libOpenCL.so
-Requires: 
